@@ -1,0 +1,9 @@
+<launch>
+
+  <arg name="target_colour" default="blue"/>
+  <param name="target_colour" type="string" value="$(arg target_colour)" />
+
+
+  <node pkg="com2009_assignment2" type="detect_obj.py" name="beacon_detection" output="screen" />
+
+</launch>

@@ -1,0 +1,5 @@
+roslaunch team30 exploration.launch
+
+roslaunch team30 explore.launch
+
+roslaunch team30 target.launch target_colour:=red
